@@ -1,0 +1,19 @@
+html {
+    width: 100%;
+    margin: 0 auto;
+    background-color: whitesmoke;
+}
+
+.container-fluid {
+    background-color: #202020;
+    border: none;
+}
+
+.clear {
+    clear: both;
+}
+
+.navbar-brand img {
+    margin-top: -16px;
+}
+
