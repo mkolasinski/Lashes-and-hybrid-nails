@@ -2,18 +2,42 @@ html {
     width: 100%;
     margin: 0 auto;
     background-color: whitesmoke;
+    font-family: 'Jura', sans-serif;
 }
 
 .container-fluid {
-    background-color: #202020;
+    background-color: #383838;
     border: none;
+    width: 100%;
+    margin: 0 auto;
 }
 
-.clear {
-    clear: both;
-}
+/*.clear {*/
+    /*clear: both;*/
+/*}*/
 
 .navbar-brand img {
     margin-top: -16px;
+}
+
+ul.nav.navbar-nav>li>a {
+    color: whitesmoke;
+    padding-left: 45px;
+    padding-right: 45px;
+    font-family: 'Jura', sans-serif;
+    font-weight: bolder;
+}
+
+ul.nav.navbar-nav>li>a:hover {
+    background-color: #dca7a7;
+    text-shadow: none;
+}
+
+ul.nav.navbar-nav {
+    margin-left: 85px;
+}
+
+.navbar-brand img {
+    padding-left: 100px;
 }
 
