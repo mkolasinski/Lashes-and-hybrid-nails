@@ -16,13 +16,13 @@ html {
     clear: both;
 }
 
+a.navbar-brand {
+    margin: 0;
+    padding: 0;
+}
 nav.navbar.navbar-default {
     margin-bottom: 0;
     border: none;
-}
-
-.navbar-brand img {
-    margin-top: -16px;
 }
 
 ul.nav.navbar-nav>li>a {
@@ -44,7 +44,8 @@ ul.nav.navbar-nav {
 }
 
 .navbar-brand img {
-    padding-left: 95px;
+    padding: 0;
+    position: relative;
 }
 
 a.home {
@@ -67,12 +68,25 @@ a.home {
 }
 
 #about-me {
-    background-image: url("../photos/paper.jpg");
+    background-image: url("../photos/wall.jpg");
+    height: 100vh;
+    width: 100%;
     position: relative;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    opacity: 0.6;
+    margin-top: 0;
+    overflow: hidden;
 }
+
+.about-me-description {
+    position: absolute;
+    text-transform: uppercase;
+    font-size: 22px;
+}
+
+
 
 
