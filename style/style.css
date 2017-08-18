@@ -36,7 +36,7 @@ ul.nav.navbar-nav > li > a {
 }
 
 ul.nav.navbar-nav > li > a:hover {
-    background-color: #dca7a7;
+    background-color: #dba6a6;
     text-decoration: underline;
 
 }
@@ -131,19 +131,44 @@ small.sign-name {
     background-repeat: no-repeat;
     background-attachment: fixed;
     /*opacity: 0.4;*/
-    filter: grayscale(70%);
+    /*filter: grayscale(70%);*/
     margin: 0;
 }
 
-.main-lashes-offer {
-    width: 40%;
-    color: #000000;
-    font-size: 45px;
-    font-family: 'Jura', sans-serif;
-    position: absolute;
-    left: 18%;
-    top: 12%;
+div.main-lashes-offer {
+    /*border: 1px solid black;*/
+    width: 500px;
+    height: 500px;
+    margin-left: 10%;
 }
+
+h4.main-lashes-offer-header {
+    padding-top: 10%;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    position: relative;
+    font-size: 42px;
+    font-family: 'Jura', sans-serif;
+
+}
+
+.img-responsive.round {
+    width: 40px;
+    height: 40px;
+    margin-top: 35px;
+    position: absolute;
+}
+
+.main-lashes-offer-header {
+    position: absolute;
+    font-size: 22px;
+    font-family: 'Jura', sans-serif;
+    padding-left: 63px;
+    padding-top: 36px;
+}
+
 
 
 
