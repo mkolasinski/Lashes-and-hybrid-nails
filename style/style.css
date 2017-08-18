@@ -10,7 +10,6 @@ html {
     border: none;
     width: 100%;
     margin: 0 auto;
-    position: fixed;
 }
 
 .clear {
@@ -21,6 +20,7 @@ nav.navbar.navbar-default {
     margin-bottom: 0;
     border: none;
 }
+
 .navbar-brand img {
     margin-top: -16px;
 }
@@ -53,8 +53,7 @@ a.home {
 
 .background-main {
     background-image: url("../photos/lashes.jpg");
-    min-height: 100vh;
-    max-height: 105vh;
+    height: 100vh;
     width: 100%;
     position: relative;
     background-position: center;
@@ -65,6 +64,15 @@ a.home {
     justify-content: center;
     align-items: center;
     margin: 0 auto;
+}
+
+#about-me {
+    background-image: url("../photos/paper.jpg");
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 
