@@ -143,7 +143,7 @@ div.main-lashes-offer {
 }
 
 h4.main-lashes-offer-header {
-    padding-top: 10%;
+    padding-top: 13%;
     padding-left: 0;
     padding-right: 0;
     margin-top: 0;
@@ -161,7 +161,14 @@ h4.main-lashes-offer-header {
     position: absolute;
 }
 
-.main-lashes-offer-header {
+.img-responsive.round-small {
+    width: 20px;
+    height: 20px;
+    margin-top: 100px;
+    margin-left: 38px;
+    position: absolute;
+}
+small.main-lashes-offer-header {
     position: absolute;
     font-size: 22px;
     font-family: 'Jura', sans-serif;
@@ -169,6 +176,28 @@ h4.main-lashes-offer-header {
     padding-top: 36px;
 }
 
+small.main-lashes-offer-small {
+    position: absolute;
+    font-size: 17px;
+    font-family: 'Jura', sans-serif;
+    padding-left: 72px;
+    padding-top: 95px;
+}
 
+.img-responsive.round-small2 {
+    width: 20px;
+    height: 20px;
+    margin-top: 140px;
+    margin-left: 38px;
+    position: absolute;
+}
+
+small.main-lashes-offer-small2 {
+    position: absolute;
+    font-size: 17px;
+    font-family: 'Jura', sans-serif;
+    padding-left: 72px;
+    padding-top: 135px;
+}
 
 
