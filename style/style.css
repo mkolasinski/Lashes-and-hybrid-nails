@@ -121,18 +121,18 @@ small.sign-name {
     color: #000000;
 }
 
-/*#main-lashes {*/
-/*height: 100vh;*/
-/*background-image: url("../photos/woman-lashes.jpg");*/
-/*width: 100%;*/
-/*position: relative;*/
-/*background-position: center;*/
-/*background-size: cover;*/
-/*background-repeat: no-repeat;*/
-/*background-attachment: fixed;*/
-/*opacity: 0.4;*/
-/*margin: 0;*/
-/*}*/
+#main-lashes {
+    height: 100vh;
+    background-image: url("../photos/woman-lashes.jpg");
+    width: 100%;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 0.4;
+    margin: 0;
+}
 
 
 
