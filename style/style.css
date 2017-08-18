@@ -1,5 +1,6 @@
-html {
+html, body {
     width: 100%;
+    height: 100vh;
     margin: 0 auto;
     background-color: whitesmoke;
     font-family: 'Jura', sans-serif;
@@ -71,16 +72,15 @@ a.home {
 
 main#about-me {
     background-image: url("../photos/wall2.jpg");
-    height: 100vh;
+    height: auto;
     width: 100%;
     position: relative;
     background-position: center;
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: repeat-x;
     background-attachment: fixed;
     /*opacity: 0.7;*/
     margin: 0;
-    z-index: 1;
 }
 
 h4.main-header-about-me {
@@ -96,7 +96,8 @@ h4.main-header-about-me {
 
 .main-text {
     margin: 0 auto;
-    padding-top: 10px;
+    padding-top: 2%;
+    padding-bottom: 50px;
     width: 60%;
     font-family: 'Jura', sans-serif;
     /*font-weight: bolder;*/
@@ -104,19 +105,34 @@ h4.main-header-about-me {
     text-align: justify;
 }
 
-span.sign {
+small.sign-main {
+    text-align: right;
     float: right;
     font-size: 14px;
     font-weight: bolder;
+    color: #000000;
 }
 
-span.sign-name {
+small.sign-name {
+    text-align: right;
     float: right;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: bolder;
-    text-decoration: underline;
+    color: #000000;
 }
 
+/*#main-lashes {*/
+/*height: 100vh;*/
+/*background-image: url("../photos/woman-lashes.jpg");*/
+/*width: 100%;*/
+/*position: relative;*/
+/*background-position: center;*/
+/*background-size: cover;*/
+/*background-repeat: no-repeat;*/
+/*background-attachment: fixed;*/
+/*opacity: 0.4;*/
+/*margin: 0;*/
+/*}*/
 
 
 
