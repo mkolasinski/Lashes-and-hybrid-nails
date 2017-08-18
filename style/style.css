@@ -10,12 +10,17 @@ html {
     border: none;
     width: 100%;
     margin: 0 auto;
+    position: fixed;
 }
 
-/*.clear {*/
-    /*clear: both;*/
-/*}*/
+.clear {
+    clear: both;
+}
 
+nav.navbar.navbar-default {
+    margin-bottom: 0;
+    border: none;
+}
 .navbar-brand img {
     margin-top: -16px;
 }
@@ -44,6 +49,22 @@ ul.nav.navbar-nav {
 
 a.home {
     text-transform: uppercase;
+}
+
+.background-main {
+    background-image: url("../photos/lashes.jpg");
+    min-height: 100vh;
+    max-height: 105vh;
+    width: 100%;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
 }
 
 
