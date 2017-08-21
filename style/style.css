@@ -181,7 +181,7 @@ small.main-lashes-offer-small1 {
     font-size: 2.47vh;
     font-family: 'Jura', sans-serif;
     padding-left: 72px;
-    padding-top: 95px;
+    padding-top: 97px;
 }
 
 .img-responsive.round-small2 {
@@ -197,7 +197,7 @@ small.main-lashes-offer-small2 {
     font-size: 2.47vh;
     font-family: 'Jura', sans-serif;
     padding-left: 72px;
-    padding-top: 135px;
+    padding-top: 137px;
 }
 
 .img-responsive.round2 {
@@ -212,7 +212,7 @@ small.main-lashes-offer-small3 {
     font-size: 2.47vh;
     font-family: 'Jura', sans-serif;
     padding-left: 72px;
-    padding-top: 175px;
+    padding-top: 177px;
 }
 
 .img-responsive.round-small3 {
@@ -222,6 +222,23 @@ small.main-lashes-offer-small3 {
     margin-left: 38px;
     position: absolute;
 }
+
+.img-responsive.round-small4 {
+    width: 20px;
+    height: 20px;
+    margin-top: 220px;
+    margin-left: 38px;
+    position: absolute;
+}
+
+small.main-lashes-offer-small4 {
+    position: absolute;
+    font-size: 2.47vh;
+    font-family: 'Jura', sans-serif;
+    padding-left: 72px;
+    padding-top: 217px;
+}
+
 small.main-lashes-offer-header2 {
     position: absolute;
     font-size: 3.2vh;
