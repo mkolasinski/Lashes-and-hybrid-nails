@@ -333,33 +333,36 @@ div.main-nails-offer {
 }
 
 span.span-main-form {
-    font-size: 24px;
+    font-size: 3.50vh;
     font-family: 'Jura', sans-serif;
     font-weight: bolder;
     position: absolute;
-    top: 10%;
+    top: 15%;
     left: 40%;
     text-shadow: 1px 1px 1px grey;
 }
+
 div#main-form {
     margin: 0 auto;
-    top: 20%;
+    top: 25%;
     width: 60%;
     position: relative;
     border: 1px solid grey;
-    background-color: #383838;
+    background-image: linear-gradient(to bottom right, #383838, #5e5e5e);
+    border-radius: 15px;
 }
 
 form.form-horizontal {
     margin-top: 25px;
     margin-right: 10px;
 }
+
 input.form-control {
     width: 95%;
 }
 
 label.control-label {
-    color: white;
+    color: whitesmoke;
     font-family: 'Jura', sans-serif;
 }
 
@@ -368,4 +371,21 @@ textarea.form-control {
     max-width: 95%;
     min-height: 25vh;
     max-height: 25vh;
+}
+
+button.btn.btn-default {
+    background-color: #dba6a6;
+    color: #000000;
+    font-size: 16px;
+    font-weight: bolder;
+    font-family: 'Jura', sans-serif;
+    text-shadow: 1px 1px 1px white;
+    border: 1px solid #383838;
+    width: 80px;
+    height: 40px;
+}
+
+button.btn.btn-default:hover {
+    background-color: #dba6a6;
+    box-shadow: 1px 1px 1px #000000;
 }
