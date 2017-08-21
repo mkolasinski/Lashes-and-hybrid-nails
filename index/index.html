@@ -88,7 +88,7 @@
             * - Nie uzupełniam rzęs po innych stylistkach
         </small>
         <span class="main-lashes-offer-poll">
-            Przed zabiegiem każda klientka wypełnia krótką ankietę
+            Przed zabiegiem każda klientka wypełnia krótką ankietę dotyczącą przeciwwskazań
         </span>
     </div>
 </div>
@@ -145,5 +145,19 @@
         <a href="https://www.facebook.com/Lashes-and-Hybrid-Nails-Gda%C5%84skOlsztyn-770021156454183/"><img class="footer-icon" src="../photos/facebook-icon.png"/></a>
     </div>
 </footer>
+<script text="text/javascript" src="../jquery-3.2.1.min.js"></script>
+<script>
+  $('a[href^="#"]').on('click', function (event) {
+
+    var target = $($(this).attr('href'));
+
+    if (target.length) {
+      event.preventDefault();
+      $('html, body').animate({
+        scrollTop: target.offset().top
+      }, 650);
+    }
+  });
+</script>
 </body>
 </html>
