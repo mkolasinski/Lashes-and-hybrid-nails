@@ -80,7 +80,7 @@ main#about-me {
     background-repeat: repeat-x;
     background-attachment: fixed;
     /*opacity: 0.7;*/
-    margin: 0;
+    margin: 0 auto;
 }
 
 h4.main-header-about-me {
@@ -97,7 +97,7 @@ h4.main-header-about-me {
 .main-text {
     margin: 0 auto;
     padding-top: 2%;
-    padding-bottom: 50px;
+    padding-bottom: 15vh;
     width: 60%;
     font-family: 'Jura', sans-serif;
     /*font-weight: bolder;*/
@@ -313,6 +313,5 @@ div.main-nails-offer {
     width: 500px;
     height: 500px;
     float: right;
-    margin-right: 12%;
-    border: 1px solid black;
+    margin-right: 10%;
 }
