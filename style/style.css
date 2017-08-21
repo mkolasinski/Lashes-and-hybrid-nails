@@ -207,6 +207,21 @@ small.main-lashes-offer-small2 {
     position: absolute;
 }
 
+small.main-lashes-offer-small3 {
+    position: absolute;
+    font-size: 2.47vh;
+    font-family: 'Jura', sans-serif;
+    padding-left: 72px;
+    padding-top: 175px;
+}
+
+.img-responsive.round-small3 {
+    width: 20px;
+    height: 20px;
+    margin-top: 180px;
+    margin-left: 38px;
+    position: absolute;
+}
 small.main-lashes-offer-header2 {
     position: absolute;
     font-size: 3.2vh;
@@ -275,4 +290,12 @@ span.main-lashes-offer-poll {
     /*opacity: 0.4;*/
     /*filter: grayscale(70%);*/
     margin: 0;
+}
+
+div.main-nails-offer {
+    width: 500px;
+    height: 500px;
+    float: right;
+    margin-right: 12%;
+    border: 1px solid black;
 }
