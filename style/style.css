@@ -345,10 +345,12 @@ span.span-main-form {
 div#main-form {
     margin-left: auto;
     margin-right: auto;
-    top: 100px;
+    top: 110px;
+    right: 0;
+    left: 0;
     width: 60%;
-    height: auto;
-    position: relative;
+    height: 50%;
+    position: absolute;
     border: 1px solid grey;
     background-image: linear-gradient(to bottom right, #383838, #5e5e5e);
     border-radius: 15px;
