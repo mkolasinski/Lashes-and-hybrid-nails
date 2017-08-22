@@ -491,3 +491,14 @@ text.main-gallery-text:first-letter {
         font-size: 11px;
     }
 }
+
+div.c-wrapper{
+    width: 65%; /* for example */
+    margin: auto;
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img{
+    width: 100%; /* use this, or not */
+    margin: auto;
+}
