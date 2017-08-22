@@ -38,7 +38,6 @@ ul.nav.navbar-nav > li > a {
 ul.nav.navbar-nav > li > a:hover {
     background-color: #dba6a6;
     text-decoration: underline;
-
 }
 
 ul.nav.navbar-nav {
@@ -336,16 +335,19 @@ span.span-main-form {
     font-size: 3.50vh;
     font-family: 'Jura', sans-serif;
     font-weight: bolder;
-    position: absolute;
-    top: 15%;
-    left: 40%;
+    position: relative;
+    top: 80px;
+    left: 0;
+    right: 0;
     text-shadow: 1px 1px 1px grey;
 }
 
 div#main-form {
-    margin: 0 auto;
-    top: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    top: 100px;
     width: 60%;
+    height: auto;
     position: relative;
     border: 1px solid grey;
     background-image: linear-gradient(to bottom right, #383838, #5e5e5e);
@@ -369,8 +371,8 @@ label.control-label {
 textarea.form-control {
     min-width: 95%;
     max-width: 95%;
-    min-height: 25vh;
-    max-height: 25vh;
+    min-height: 20vh;
+    max-height: 20vh;
 }
 
 button.btn.btn-default {
@@ -421,3 +423,16 @@ img.footer-icon {
     width: 20px;
     height: 20px;
 }
+
+@media screen and (max-width: 767px) {
+    input.form-control {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    textarea.form-control {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
