@@ -458,6 +458,24 @@ text.main-gallery-text:first-letter {
     text-transform: uppercase;
 }
 
+div.c-wrapper{
+    width: 65%; /* for example */
+    margin: auto;
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img{
+    width: 100%; /* use this, or not */
+    /*margin-top: 50px;*/
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+div.carousel-inner {
+    margin-top: 60px;
+}
+
 @media screen and (max-width: 767px) {
     input.form-control {
         margin-left: auto;
@@ -490,15 +508,4 @@ text.main-gallery-text:first-letter {
         height: 36px;
         font-size: 11px;
     }
-}
-
-div.c-wrapper{
-    width: 65%; /* for example */
-    margin: auto;
-}
-
-.carousel-inner > .item > img,
-.carousel-inner > .item > a > img{
-    width: 100%; /* use this, or not */
-    margin: auto;
 }
